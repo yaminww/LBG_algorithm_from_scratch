@@ -104,7 +104,7 @@ def generate_codebook(data, size_codebook, epsilon=0.00001, verbose=False):
                 print(f'iteration: {num_iter}, size codebook: {len_codebook}, average distance: {avg_dist.item():.3f}, previous average distance: {avg_dist_prev.item():.3f}, err: {err.item():.3f}')
             
             num_iter += 1
-        lbg.ipynb
+            
     return codebook, codebook_abs_weights, codebook_rel_weights
 
 
