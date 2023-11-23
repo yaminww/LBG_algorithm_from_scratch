@@ -1,1 +1,1 @@
-Implementing Linde–Buzo–Gray algorithm from scratch in Python with Numpy, Scipy and Pandas
+Implementing Linde–Buzo–Gray algorithm for clustering from scratch in Python with Numpy, Scipy and Pandas
