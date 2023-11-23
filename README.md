@@ -12,7 +12,7 @@ Implementing Linde–Buzo–Gray algorithm for clustering from scratch in Python
 Linde–Buzo–Gray algorithm is a clustering algorithm similar to K-means. The most notable difference is that LBG split code-vector by adding or subtracting epsilon from already-existed code-vectors to increase the number of code-vectors. 
 
 ### Steps
-1. Initialize codebook \bold${C}$ as $[\bold{c_0}]$ where $\bold{c_0}$ is mean of all input data vectors.
+1. Initialize codebook \bold{$C$} as $[\bold{c_0}]$ where $\bold{c_0}$ is mean of all input data vectors.
 2. While length of $\bold{C}$ < expected size of codebook: 
   1. Split code vector.
   2. While $D'- D < err$
