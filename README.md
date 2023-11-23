@@ -13,7 +13,7 @@ Linde–Buzo–Gray algorithm is a clustering algorithm similar to K-means. The 
 
 ### Steps
 1. Initialize codebook $C$ as $c_0$ where $c_0$ is mean of all input data vectors.
-2. While length of $C$$ < expected size of codebook: 
+2. While length of $C$ < expected size of codebook: 
   1. Split code vector.
   2. While $D'- D < err$
         1. Find closest code vector for all input data vectors.
